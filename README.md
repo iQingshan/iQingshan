@@ -57,7 +57,7 @@
 
 ![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?logo=metasploit&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?logo=burpsuite&logoColor=white)
-![Nmap](https://img.shields.io/badge/Nmap-4682B4&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?logo=nmap&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?logo=wireshark&logoColor=white)
 ![IDA Pro](https://img.shields.io/badge/IDA%20Pro-6A1B9A)
 ![Cobalt Strike](https://img.shields.io/badge/Cobalt%20Strike-workflow-333333)
