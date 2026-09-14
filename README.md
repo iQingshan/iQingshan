@@ -12,15 +12,15 @@
 **Offensive Security · Vulnerability Research · Tooling · Code Audit**
 
 [![GitHub](https://img.shields.io/badge/GitHub-iQingshan-181717?logo=github&logoColor=white)](https://github.com/iQingshan)
-![Profile Views](https://komarev.com/ghpvc/?username=iQingshan&label=Profile%20Views&color=0e75b6&style=flat)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Focus](https://img.shields.io/badge/Focus-Red%20Team%20%2F%20Vuln%20Research-red)
+[![Followers](https://img.shields.io/github/followers/iQingshan?label=Followers&style=flat&color=0e75b6)](https://github.com/iQingshan?tab=followers)
+[![Total Stars](https://img.shields.io/github/stars/iQingshan?affiliations=OWNER&label=Total%20Stars&style=flat&color=yellow)](https://github.com/iQingshan?tab=repositories)
+[![Profile Views](https://komarev.com/ghpvc/?username=iQingshan&label=Profile%20Views&color=0e75b6&style=flat)](https://github.com/iQingshan)
 
 </div>
 
 ---
 
-## 👤 关于我 / About Me
+## 关于我 / About Me
 
 | 中文 | English |
 | :--- | :--- |
@@ -32,16 +32,16 @@
 > 一句话：**把攻防实战里踩过的坑，做成别人能直接用的东西。**
 > *One-liner: turning lessons learned in the field into tools others can use right away.*
 
-## 🎯 方向 / Focus Areas
+## 方向 / Focus Areas
 
 | 方向 / Area | 中文说明 | English |
 | :--- | :--- | :--- |
-| 🎯 实战攻防 | 红队演练全流程：外网打点、内网横向、权限维持、隐蔽通道、对抗加固环境 | Full-scope red teaming: initial access, lateral movement, persistence, covert channels, hardened-environment operations |
-| 🐞 漏洞挖掘 | 代码审计 + 协议/实现缺陷挖掘，漏洞复现与利用链串联，PoC 编写 | Vulnerability research via code audit and protocol/implementation flaws: reproduction, exploit chaining, PoC development |
-| 🛠 工具开发 | Go / Python 为主：C2 平台、资产与漏洞关联检索、自动化编排、Web 控制台 | Tooling in Go / Python: C2 platforms, asset-vulnerability correlation, automation, web consoles |
-| 🔍 代码审计 | Java / PHP / Go / Python 源码审计，从入口到危险函数的完整链路分析 | Source auditing in Java / PHP / Go / Python — end-to-end tracing from entry point to dangerous sink |
+| 实战攻防 | 红队演练全流程：外网打点、内网横向、权限维持、隐蔽通道、对抗加固环境 | Full-scope red teaming: initial access, lateral movement, persistence, covert channels, hardened-environment operations |
+| 漏洞挖掘 | 代码审计 + 协议/实现缺陷挖掘，漏洞复现与利用链串联，PoC 编写 | Vulnerability research via code audit and protocol/implementation flaws: reproduction, exploit chaining, PoC development |
+| 工具开发 | Go / Python 为主：C2 平台、资产与漏洞关联检索、自动化编排、Web 控制台 | Tooling in Go / Python: C2 platforms, asset-vulnerability correlation, automation, web consoles |
+| 代码审计 | Java / PHP / Go / Python 源码审计，从入口到危险函数的完整链路分析 | Source auditing in Java / PHP / Go / Python — end-to-end tracing from entry point to dangerous sink |
 
-## 🧰 技术栈 / Toolbox
+## 技术栈 / Toolbox
 
 **语言 / Languages**
 
@@ -72,17 +72,17 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 
-## 🚀 代表项目 / Featured Projects
+## 代表项目 / Featured Projects
 
-| 项目 / Project | 语言 | 简介 / Description |
-| :--- | :--- | :--- |
-| **[ToShell](https://github.com/iQingshan/Toshell)** ⭐126 | Go | 自托管 C2 框架：服务端 + Web 控制台 + 多平台植入端，覆盖「生成载荷 → 会话管理 → 任务执行」全链路，单二进制部署；内置免杀/注入/凭据/截屏等原语，支持 HTTP(S) 轮询、TCP、WebSocket、MQTT 通道与防测绘控制台。<br/>*Self-hosted C2 framework — team server + web console + multi-platform implants. Single-binary deployment, HTTP polling / TCP / WebSocket / MQTT channels, anti-fingerprinting console.* |
-| **[VRST](https://github.com/iQingshan/VRST)** ⭐19 | Python | 攻防演练场景下的 **漏洞储备与目标资产关联检索** 工具：给定漏洞储备，快速定位可能受影响的资产，提升打点效率。<br/>*Correlate a vulnerability inventory with target assets during red-team engagements — quickly locate likely-affected assets.* |
-| **[ARL](https://github.com/iQingshan/ARL)** ⭐16 | Python | 灯塔（ARL, Asset Reconnaissance Lighthouse）v2.6.2 的 Docker 版，资产侦察开箱即用。<br/>*Dockerized ARL (Asset Reconnaissance Lighthouse) v2.6.2 — asset reconnaissance out of the box.* |
-| **[Blackash-CVE-2025-53833](https://github.com/iQingshan/Blackash-CVE-2025-53833)** | — | CVE-2025-53833 的复现与利用研究（漏洞挖掘方向的公开产出）。<br/>*Reproduction and exploitation research for CVE-2025-53833 (public output of vulnerability research).* |
-| **[Neoreg_Gui](https://github.com/iQingshan/Neoreg_Gui)** ⭐3 | Python | Neo-reGeorg 隧道工具的图形化封装，方便快速生成与管理隧道脚本。<br/>*GUI wrapper around Neo-reGeorg for fast tunnel-script generation and management.* |
-| **[MusicPartner](https://github.com/iQingshan/MusicPartner)** ⭐9 | PHP | 网易云音乐合伙人自动评分（工具开发方向的早期作品）。<br/>*Automated scoring for NetEase Cloud Music "Partner" — an early tooling project.* |
-| **[time_display](https://github.com/iQingshan/time_display)** ⭐2 | JavaScript | 浏览器插件：页面时间悬浮显示，顺手的小工具。<br/>*Browser extension showing a floating clock overlay — a small quality-of-life tool.* |
+| 项目 / Project | 语言 | 星标 / Stars | 简介 / Description |
+| :--- | :--- | :--- | :--- |
+| **[ToShell](https://github.com/iQingshan/Toshell)** | Go | [![Stars](https://img.shields.io/github/stars/iQingshan/Toshell?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/Toshell/stargazers) | 自托管 C2 框架：服务端 + Web 控制台 + 多平台植入端，覆盖「生成载荷 → 会话管理 → 任务执行」全链路，单二进制部署；内置免杀/注入/凭据/截屏等原语，支持 HTTP(S) 轮询、TCP、WebSocket、MQTT 通道与防测绘控制台。<br/>*Self-hosted C2 framework — team server + web console + multi-platform implants. Single-binary deployment, HTTP polling / TCP / WebSocket / MQTT channels, anti-fingerprinting console.* |
+| **[VRST](https://github.com/iQingshan/VRST)** | Python | [![Stars](https://img.shields.io/github/stars/iQingshan/VRST?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/VRST/stargazers) | 攻防演练场景下的 **漏洞储备与目标资产关联检索** 工具：给定漏洞储备，快速定位可能受影响的资产，提升打点效率。<br/>*Correlate a vulnerability inventory with target assets during red-team engagements — quickly locate likely-affected assets.* |
+| **[ARL](https://github.com/iQingshan/ARL)** | Python | [![Stars](https://img.shields.io/github/stars/iQingshan/ARL?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/ARL/stargazers) | 灯塔（ARL, Asset Reconnaissance Lighthouse）v2.6.2 的 Docker 版，资产侦察开箱即用。<br/>*Dockerized ARL (Asset Reconnaissance Lighthouse) v2.6.2 — asset reconnaissance out of the box.* |
+| **[Blackash-CVE-2025-53833](https://github.com/iQingshan/Blackash-CVE-2025-53833)** | — | [![Stars](https://img.shields.io/github/stars/iQingshan/Blackash-CVE-2025-53833?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/Blackash-CVE-2025-53833/stargazers) | CVE-2025-53833 的复现与利用研究（漏洞挖掘方向的公开产出）。<br/>*Reproduction and exploitation research for CVE-2025-53833 (public output of vulnerability research).* |
+| **[Neoreg_Gui](https://github.com/iQingshan/Neoreg_Gui)** | Python | [![Stars](https://img.shields.io/github/stars/iQingshan/Neoreg_Gui?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/Neoreg_Gui/stargazers) | Neo-reGeorg 隧道工具的图形化封装，方便快速生成与管理隧道脚本。<br/>*GUI wrapper around Neo-reGeorg for fast tunnel-script generation and management.* |
+| **[MusicPartner](https://github.com/iQingshan/MusicPartner)** | PHP | [![Stars](https://img.shields.io/github/stars/iQingshan/MusicPartner?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/MusicPartner/stargazers) | 网易云音乐合伙人自动评分（工具开发方向的早期作品）。<br/>*Automated scoring for NetEase Cloud Music "Partner" — an early tooling project.* |
+| **[time_display](https://github.com/iQingshan/time_display)** | JavaScript | [![Stars](https://img.shields.io/github/stars/iQingshan/time_display?label=%E2%98%85&style=flat&color=yellow)](https://github.com/iQingshan/time_display/stargazers) | 浏览器插件：页面时间悬浮显示，顺手的小工具。<br/>*Browser extension showing a floating clock overlay — a small quality-of-life tool.* |
 
 <details>
 <summary><b>更多仓库 / More repositories</b>（jsou、PageKIt_Exp 及保留的漏洞 PoC 复现库）</summary>
@@ -93,30 +93,38 @@
 
 </details>
 
-## 📊 GitHub 数据 / Stats
+## GitHub 数据 / Stats
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=iQingshan&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iQingshan&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="top languages" />
+[![Followers](https://img.shields.io/github/followers/iQingshan?label=Followers&style=for-the-badge&color=0e75b6)](https://github.com/iQingshan?tab=followers)
+[![Total Stars](https://img.shields.io/github/stars/iQingshan?affiliations=OWNER&label=Total%20Stars&style=for-the-badge&color=yellow)](https://github.com/iQingshan?tab=repositories)
+
+[![Toshell Stars](https://img.shields.io/github/stars/iQingshan/Toshell?label=Toshell%20Stars&style=flat&color=yellow)](https://github.com/iQingshan/Toshell/stargazers)
+[![Toshell Release](https://img.shields.io/github/v/release/iQingshan/Toshell?label=Release&style=flat&color=blue)](https://github.com/iQingshan/Toshell/releases)
+[![Toshell Commits](https://img.shields.io/github/commit-activity/t/iQingshan/Toshell?label=Commits&style=flat&color=green)](https://github.com/iQingshan/Toshell/commits)
+[![Toshell Last Commit](https://img.shields.io/github/last-commit/iQingshan/Toshell?label=Last%20Commit&style=flat)](https://github.com/iQingshan/Toshell/commits)
+[![Toshell Contributors](https://img.shields.io/github/contributors/iQingshan/Toshell?label=Contributors&style=flat)](https://github.com/iQingshan/Toshell/graphs/contributors)
+[![Toshell License](https://img.shields.io/github/license/iQingshan/Toshell?label=License&style=flat)](https://github.com/iQingshan/Toshell/blob/main/LICENSE)
+[![Toshell Top Language](https://img.shields.io/github/languages/top/iQingshan/Toshell?label=Top%20Language&style=flat)](#)
+[![Toshell Repo Size](https://img.shields.io/github/repo-size/iQingshan/Toshell?label=Repo%20Size&style=flat)](#)
 
 <img src="https://raw.githubusercontent.com/iQingshan/iQingshan/output/github-contribution-grid-snake-dark.svg" alt="contribution snake" />
 
 </div>
 
-## 📫 联系方式 / Contact
+## 联系方式 / Contact
 
 | 渠道 / Channel | 地址 / Link |
 | :--- | :--- |
 | GitHub | [@iQingshan](https://github.com/iQingshan) |
 | Issues / 交流 | [开 issue 讨论](https://github.com/iQingshan/iQingshan/issues) |
-| QQ | 596230047 |
-| 邮箱 / Email | 596230047@qq.com |
+| 邮箱 / Email | [qingshan@88.com](mailto:qingshan@88.com) |
 
 > 技术交流、合作与问题反馈都欢迎；涉及具体漏洞的沟通请先说明 **授权范围**。
 > *Open to technical discussion, collaboration and feedback. For anything vulnerability-related, please state your authorization scope first.*
 
-## ⚠️ 声明 / Disclaimer
+## 声明 / Disclaimer
 
 | 中文 | English |
 | :--- | :--- |
@@ -127,7 +135,5 @@
 <div align="center">
 
 **青山不改，绿水长流。**
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e75b6,100:6A1B9A&height=90&section=footer" alt="footer" />
 
 </div>
